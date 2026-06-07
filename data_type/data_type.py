@@ -51,4 +51,36 @@ nums = [1, 2, 3, 4, 5]
 print(type(nums)) #list
 
 
+#Tuple: tuple 
+# Ordered, immutable sequence. Used for fixed data and multiple return values.
+coords = (10.5, 20.3)
+rgb = (255, 128, 0)
+
+
+#Set — set 
+# Unordered collection of unique items. Perfect for membership tests and deduplication.
+colors = {"red", "green", "blue"}
+
+
+#Dictionary — dict
+#  Key-value store. Ordered (Python 3.7+), fast lookups, flexible keys.
+person = {
+    "name":"Alice",
+    "age":20,
+    "city":"New York"
+}
+
+
+#NoneType — None 
+#Python's null value. Represents the absence of a value.
+x = None
+
+
+
+
+
+
+
+
+
 
