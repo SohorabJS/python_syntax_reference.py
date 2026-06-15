@@ -66,8 +66,39 @@ text = "Banana, Apple, cherry"
 # print(text2.split());   # ['Hello', 'World', 'Python']
 
 #splitline
-text3 = "line1\nline2\nline3"
-print(text3.splitlines()) # ['line1', 'line2', 'line3'];
+# text3 = "line1\nline2\nline3"
+# print(text3.splitlines()) # ['line1', 'line2', 'line3'];
+
+# join
+# text4 = ["Hello", "Python", "world"];
+# print(" ".join(text4));
+# print("_".join(text4));
+# print(".".join(text4));
+# # custom cherecter
+# print(" | ".join(text4))
 
 
+# old patter
+# name = "Alice"
+# age = 30
+# height = 5.7
+
+# print("Name: %s, Age: %d" % (name, age))
+# print("Height: %.2f meters" % height)  # %.2f = 2 decimal places
+
+
+# .format() Method
+# Positional arguments
+# print("{0} {1} {2}".format("Hello", "Python", "World"));
+
+# print("{0} {1} {2}".format("Hello", "World", "!"))
+# Name arguments
+# print("My name is {name} & age is {age}".format(name="BackwardError", age=30));
+
+# Mixing positional and named
+# print("{} is from {}".format("Charlie", city="NYC"))
+
+name = str(input(f"My name is: "));
+result = len(name)
+print(result)
 
